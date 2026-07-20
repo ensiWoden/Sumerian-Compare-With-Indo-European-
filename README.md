@@ -1,3 +1,6 @@
+Seening if there a possible connection with Sumerian and Indo Euopean, useing the Germanic branch. 
+
+
 Results 
 =================== BATCH DICTIONARY PIPELINE ACTIVE ===================
 
