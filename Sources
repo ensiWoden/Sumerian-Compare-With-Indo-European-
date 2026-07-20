@@ -1,0 +1,84 @@
+//Sources: Volk, Konrad.A Sumerian Chrestomathy (2012). Bown, Joshua and Lewis, Magan. Learn To Read Ancient Sumerian. vestansaervikings.com
+    //Wright, Joseph. An Old High German Primer(1906). Rauch, Irmengard. Bennet, Willem. An Introduction To The Gothic Language. Thomas O. Lambdin’s An Introduction to The Gothic Language. The Old Saxon Language.etymonline.com. The Old-Engli.sh Dictionary. Atherton, Mark. Complete Old English.  Byock, Jesse. Viking Language 2. 
+    //Foxvog, Daniel.(1967). Elementary Sumerian Glossary 
+    std::vector<std::pair<std::string, std::string>> dictionaryDataset = {
+        {"kur", "horn"}, //kur: mountain, mountain range(Volk, 94). OHG- horn: horn (wright: 153) 
+        {"kur", "holm"}, //kur: mountain, mountain range. OE- holm: raising island (etymonline)
+         {"ter", "treo"}, // ter: forest, grove(Volk, 93). OE- trEo: tree, wood (The Old-Engli.sh Dictionary)
+         {"dadag", "dag"}, // dadag: bright, shining (Vold 85).OS- dag: day (Rauch, 281)
+        {"kus", "hus"}, //kus: skin (Vold, 94). OHG- hus: house (Wright, 153)
+         {"kus", "hut"}, //OHG- hut: skin (Wright(164))
+         {"hal", "halba"}, // hal: to divide (Lewis, 217). OS- halba: half (etymonline.com)
+          {"pad", "findan"}, //pad: to find (Lewis, 221) OHG -findan: to find (Wright, 148)
+           {"ngen", "gang"}, //ngen: to go (Volk, 90). OHG-gang: going, walking (Wright, 149)
+        {"tag", "taka"}, // tag: to touch (Lewish, 222). ON- take: hold, grasp, take (vestansaervikings.com) 
+         {"lu", "wer"}, // lu: man, person (Lewis, 219). OE- wer: man, male (etmonline.com)
+          {"uru", "burg"}, //uru: city (lewis,222). OHG-burg: city (Wright, 144)
+           {"sang", "hobid"}, // sang: head (Lewis, 221), OHG- houbit: head (Wright, 153)
+            {"kUg", "hwit"}, //kUg: shiningy, white, pure. OE- hwit. white, bright (The Old-Engli.sh Dictionary)
+            {"shu", "hand"}, //shu: hand (Lewis, 221). OE-hand: hand (The Old-Engli.sh Dictionary)
+            {"til", "lib"}, // til: to live (Lewis 222). OHG- lib: life, body (Wright, 157)
+            {"bala", "bota"}, //bala: term of office, term of duty (Foxvog, 8)
+            {"nu", "ne"}, //nu: not to be (Foxvog, 41). OHG-ni (Wright, 159)
+              {"pU", "pol"},// PU: fountain (Volk, 98). OE- pol: small body of water (etymonline)
+              {"ngar", "garo"}, //ngar: to set, to put up (Volk, 90). OHG- garo - ready, complete (Wright, 150)
+              {"mu", "mEnOþs"}, // mu: year-x (Volk,95). Gothic - mEnOths: month (Bennet, 162)
+              {"ning", "thing"}, //ning: thing, a matter (Volk, 97). OHG - thing: thing (Wright, 145)
+        {"an", "ans"}, // an: heavry, sky (Volk, 85). Gothic - ans: god (etymonline.com)
+        {"igi", "ouga"}, // igi: eye, glance (Volk, 92). OHG - ouga: eye (Wright, 160)
+        {"dU", "tuon"}, // du: to build, construct, to erect (Volk, 86). toun: make, deliver (Wright, 164)
+         {"tUm", "dOm"}, //tUm: to bring, to carry off, deliever (Volk, 102). OE - dOm: state, condiction, jugdment, decree, ordinance, will (The Old-Engli.sh Dictionary)
+          {"sila", "sceap"}, // sila: lamb (Volk, 99). OE- scEap: sheep (The Old-Engli.sh Dictionary)
+           {"gu", "ku"}, //steer, ox (Volk, 90). EO- kU/cU: cow (The Old-Engli.sh Dictionary)
+            {"sah", "swin"}, //sah: pig (Lewis, 221). OE - swin: pg (The Old-Engli.sh Dictionary)
+             {"ur", "wulf"} // ur: dog (Volk, 103). Gothic - wulf: wolf (Bennet, 181)
+{“AG”, “eigan”} // AG: to measure (Volk, 84). OHG- Eigan: to own (Rauch, 336). 
+{“sipa”, “scEap”} // spa: shepherd(Volk, 99). OE – scEap: sheep  (The Old-Engli.sh Dictionary)
+{“Sbi”, “Skin”} sUbi: shining (Volk, 100), OHG Skin: to shine (Wright 162) 
+{“mah”, “Mihil”} mah: exalted/high (volk, 95). OHG Mihil: great (Wright 158)
+{“mah”, “maht”} OHG Maht: strength, power (Wright 157). 
+{“gid”, “wid”}, gid: to be long (Lewis 216). OS Wid: wide, broad, afar (Rauch 313). 
+{“KA”, “geat”} kA: gate (Volk, 93). OE Geat: gate (Atherton, 308) 
+{“ki”, “her”} Ki: place, location, area, world (Volk, 93). OE her: here (Atherton, 311)
+{“she”, “sehan” } she: a terminative for “towards, to” (Lewis, 48). OHG Sehan: to see (Wright, 161). OHG “sehan” and ME “see” are both believe to come from PIE *sekw- (2) "to see. (eymonline.com). 
+{“she”, “sekan”}  OE sekan/secan: “loog for, seek (Atherton, 317). 
+{“ul”, “alt”}, ul: distant in time (Volk, 103). OHG alt: old, “alt-mag”, ancestors (Wright, 142). 
+{“utu”, “ut”} Utu: name of the sun god (Volk, 108). “U” means “day” in Sumerian (Volk, 102). OE ut: out (Volk, 320). OE “ut” and its assume ancestor, Proto-Germanic *ūt are believed to be relate to Sanskrit “ut” : “up, out”, and Latin “usque”: “all the way to”. (p.out.etymonline.com)  
+{“saG”, “saga”} sang/saG: head (Volk, 98). OE saga: say (Atherton, 316). 
+{“bur”, “bolla”} bur: (stone) bowl, vessel (Foxvog, 9). OE bolla: bowl, cup, pot, beaker, measure (The Old-Engli.sh Dictionary) 
+{“bul”, “blAwan”} bul: to blow, be full with air (Foxvog, 9). OE blAwan: to blow, breathe; be blown, sound (The Old-Engli.sh Dictionary). 
+{“dar”, “teran”} dar: to split (Foxvog, 11). OE teran: to tear, lacerate (The Old-Engli.sh Dictionary). 
+{“har”, “hring”} har: ring…spiral (Foxvog, 24). OE hring: ring (Atherton, 311). 
+{“hur”, “hol”} hur: hole (Foxvog, 25). OE hol: hollow, hole, cave (Atherton, 311) 
+{“ani”, “inan”} ani: his/her, third person (Volk, 84). OHG inan: him (Wright, 154). 
+{“ane”, “inan”} ane: he/she (Lewis, 88). 
+{“de”, “te”} de: to bring, deliver (Volk, 86). OS te: to (Rauch, 307). 
+{“bar”, “faran”} bar: as in “bar-she” (out, away, toward the outside) and “bar-tal” (away, aside, outside) (foxvog). Faran: to set forth, go, travel, wander, proceed; be, happen, exist, act; fare, get on, undergo… (The Old-Engli.sh Dictionary). 
+{“simug”, “smiþ”} Simug: smith (Foxvog, 46). Smiþ: handicraftsman, smith, blacksmith, armorer, carpenter, worker in metals or in wood (The Old-Engli.sh Dictionary). 
+{"siki", "sceap"}, // siki: wool.. (Foxvog, 46). OE- skeap: sheep (The Old-Engli.sh Dictionary)
+{“shika”, “skeil”} shika: shell…(fish) scales…(Foxvog, 50). OE Skeil/sceil: a shell, shell-fish…a scale of a fish (The Old-Engli.sh Dictionary). 
+{“banda”, “barn} banda: young one, child (Foxvog, 7). OHG Barn: child (Wright, 142). 
+{“sil”, “slitan”} sil: …to split, cleave, divide, breach, to tear or rip..(Foxvog, 45).  OE Slitan: to slit, tear, rend, shiver. (The Old-Engli.sh Dictionary). 
+{“sikil”, “skin”} sikil: to be pure, clean.. .Skin: clear, bright, manifest (Wright, 162). 
+{“diri”, “diuran”} diri: to be more than…greater than…exceed. (Foxvog, 11). OS Diurian: to praise, glorify. (Rauch, 281). 
+{“kar”, “heri”} kar: to flee, escape…steal (Foxvog, 29). OS heri: crowd…army. (Rauch, 293). 
+{“kar”, “hors”} OE hors: horse (Atherton, 311). OE hors and ME “horse” are believed to decent from the Indo European word for “run”. (p.Horse.etymonline).  
+
+{“luh”, “leah”} luh: to clean, wash (Lewis, 219). OE leah: ley, cleaning (Atherton, 312). 
+
+{“diGir”, “tungol”} diGir: god (Lewis, 215). OE tungol: star, planet, constellation (The Old-Engli.sh Dictionary) 
+{“dumu”, “dohter”}. Dumu: child, son, daughter (Volk, 87). OHG dohter: daughter (Wright, 164). 
+{“kag”, “hAt”} kag: statement (Volk, 93). hAt: command (Atherton, 310). 
+{“kur”, “hard”} kur4: to be thick..enlarged…self-important (Foxvog, 21). OE hard: bold, hard, strong, hard…heavy. 
+{“silim”, “sliumo”} Silim: be well, health.. good condition (Foxvog, 46). OHG Silim: quickly, suddenly(Wright, 162). Could have a similar etymological history as OE cwic: “living, alive, animate”. To ME “quick”: to be fast, speedily (p.quick.etymonline).    
+
+{“en”, “Ain}. En: lord, high priest and priestess (Foxvog, 15). Gothic Ain: the number one (Bennet, 139). Note: under this interpretation, “en-lil” (“en” + wind) can be read as the “one wind”. 
+{“bir”, “brikan”}, bir6, Bir7, bir: to rip/break to pieces (Foxvog, 9). Gothic brikan: breaking… (Lambdin, 325). 
+{“hUL”, “hlas”}, hUl: rejoice, be happy (Foxvog, 25). Gothic hlas: cheerful, glad (Lambdin, 335). 
+
+{“bUr”, “bAl”}. bUr: to glow, shine (Foxvog, 10). ON bAl: fire, bonfire, flame…(Byok, 280). 
+{“gur”, “hwel”}. Gur: to turn, go around…roll (Foxvog, 21). Old Frisian  hwel: wheel (p.Wheel.Etymonline.com) 
+
+{“tuku”, “taka”} tuku: to acquire, obtain, to have..(Foxvog, 54). Taka: take, catch, size…(Byock, 341). 
+
+    };
